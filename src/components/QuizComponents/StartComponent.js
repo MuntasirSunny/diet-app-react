@@ -1,6 +1,6 @@
 import React from 'react';
 
-const StartComponent = () => {
+const StartComponent = (props) => {
   return (
     <div className='mt-2 overflow-hidden'>
         <h1 className='text-3xl font-extrabold mt-4'>Do you want to lose weight?</h1>
@@ -16,6 +16,7 @@ const StartComponent = () => {
                 <button
                     type="button"
                     className="bg-teal-500 hover:bg-teal-400 hover:scale-110 duration-100 text-white font-bold px-10 py-2 m-6 rounded-md"
+                    onClick={()=> props.changeStep('first')}
                 >
                     Yes
                 </button>
@@ -30,6 +31,7 @@ const StartComponent = () => {
                 <button
                     type="button"
                     className="bg-yellow-400 hover:bg-yellow-300 hover:scale-110 duration-100 text-white  font-bold px-10 py-2 m-6 rounded-md"
+                    onClick={()=> props.changeStep('first')}
                 >
                     No
                 </button>
