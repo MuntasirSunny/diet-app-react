@@ -4,6 +4,6 @@
 
 @layer base {
   html {
-    font-family: ui-sans-serif;
+    font-family: "IBM Plex Sans", "sans-serif";
   }
 }

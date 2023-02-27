@@ -1,17 +1,24 @@
 import React from 'react';
 import { BsQuestionCircle } from "react-icons/bs";
 import { MdMenu } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 const HeaderComponent = () => {
+
+    const navigate = useNavigate();
 
     const handleMenuClick = () => {
         console.log('Clicked!');
     }
 
+    const handleLogoHome = () => {
+        navigate('/');
+    }
+
   return (
     <section>
         <nav className='flex flex-row justify-between h-auto w-full p-4 bg-gradient-to-r from-cyan-600'>
-            <div className='flex flex-row items-center cursor-pointer'>
+            <div className='flex flex-row items-center cursor-pointer' onClick={()=>handleLogoHome()}>
                 <img
                     src="/logo-tree.png"
                     alt="logo"
