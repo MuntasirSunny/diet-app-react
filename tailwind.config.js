@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        plexSans: ["IBM Plex Sans", "sans-serif"],
+        //plexSans: ["IBM Plex Sans", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"]
       },
     },
   },

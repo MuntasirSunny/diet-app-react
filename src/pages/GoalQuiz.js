@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import HeaderComponent from '../components/HeaderComponent';
 import EighthQuizComponent from '../components/QuizComponents/EighthQuizComponent';
 import FifthQuizComponent from '../components/QuizComponents/FifthQuizComponent';
+import FinalEmailComponent from '../components/QuizComponents/FinalEmailComponent';
 import FirstQuizComponent from '../components/QuizComponents/FirstQuizComponent';
 import FourthQuizComponent from '../components/QuizComponents/FourthQuizComponent';
 import NinthQuizComponent from '../components/QuizComponents/NinthQuizComponent';
@@ -37,7 +38,8 @@ const GoalQuiz = () => {
                 'seventh': <SeventhQuizComponent step={step} changeStep={changeStep}/>,
                 'eighth': <EighthQuizComponent step={step} changeStep={changeStep}/>,
                 'ninth': <NinthQuizComponent step={step} changeStep={changeStep}/>,
-                'tenth': <TenthQuizComponent step={step} changeStep={changeStep}/>
+                'tenth': <TenthQuizComponent step={step} changeStep={changeStep}/>,
+                'final': <FinalEmailComponent step={step} changeStep={changeStep}/>
               }[step]
             }
           </div>

@@ -28,7 +28,7 @@ const TenthQuizComponent = (props) => {
                     <button 
                         type="button"
                         className="w-full bg-neutral-50 rounded-md px-4 pt-2 pb-1 mb-2 hover:bg-amber-100"
-                        onClick={()=>props.changeStep('tenth')}
+                        onClick={()=>props.changeStep('final')}
                     >
                         <div className="flex flex-row justify-between items-center mb-2">
                             <div className='flex flex-col items-start'>
@@ -40,7 +40,7 @@ const TenthQuizComponent = (props) => {
                     <button 
                         type="button"
                         className="w-full bg-neutral-50 rounded-md px-4 pt-2 pb-1 mb-2 hover:bg-amber-100"
-                        onClick={()=>props.changeStep('tenth')}
+                        onClick={()=>props.changeStep('final')}
                     >
                         <div className="flex flex-row justify-between items-center mb-2">
                             <div className='flex flex-col items-start'>
@@ -52,7 +52,7 @@ const TenthQuizComponent = (props) => {
                     <button 
                         type="button"
                         className="w-full bg-neutral-50 rounded-md px-4 pt-2 pb-1 mb-2 hover:bg-amber-100"
-                        onClick={()=>props.changeStep('tenth')}
+                        onClick={()=>props.changeStep('final')}
                     >
                         <div className="flex flex-row justify-between items-center mb-2">
                             <div className='flex flex-col items-start'>
@@ -64,7 +64,7 @@ const TenthQuizComponent = (props) => {
                     <button 
                         type="button"
                         className="w-full bg-neutral-50 rounded-md px-4 pt-2 pb-1 mb-2 hover:bg-amber-100"
-                        onClick={()=>props.changeStep('tenth')}
+                        onClick={()=>props.changeStep('final')}
                     >
                         <div className="flex flex-row justify-between items-center mb-2">
                             <div className='flex flex-col items-start'>
@@ -76,7 +76,7 @@ const TenthQuizComponent = (props) => {
                     <button 
                         type="button"
                         className="w-full bg-neutral-50 rounded-md px-4 pt-2 pb-1 mb-2 hover:bg-amber-100"
-                        onClick={()=>props.changeStep('tenth')}
+                        onClick={()=>props.changeStep('final')}
                     >
                         <div className="flex flex-row justify-between items-center mb-2">
                             <div className='flex flex-col items-start'>
