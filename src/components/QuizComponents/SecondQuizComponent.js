@@ -36,13 +36,13 @@ const SecondQuizComponent = (props) => {
                             <label className="text-gray-900 text-sm font-bold mb-2" for="weight">
                                 Age (years)
                             </label>
-                            <input className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="weight (kg)" />
+                            <input className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Age" />
                         </div>
                         <div className="mb-4">
                             <label className="text-gray-900 text-sm font-bold mb-2" for="weight">
                                 Height (cm)
                             </label>
-                            <input className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="weight (kg)" />
+                            <input className="border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Height (cm)" />
                         </div>
                     </form>
 
